@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="RiF-Y4-7s5"/>
                     <connections>
                         <outlet property="mapView" destination="yFq-ME-Cb9" id="Dxt-mE-L51"/>
-                        <segue destination="tNE-iO-8TV" kind="show" identifier="ShowLocationDetailSegue" id="mY9-MB-zR5"/>
+                        <segue destination="tNE-iO-8TV" kind="show" identifier="ShowLocationDetailsSegue" id="mY9-MB-zR5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
