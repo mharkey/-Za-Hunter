@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858F7CCF223817E400EF1ADA /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858F7CCE223817E400EF1ADA /* LocationDetailsViewController.swift */; };
 		85FA5CDA2236C097007B54B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FA5CD92236C097007B54B8 /* AppDelegate.swift */; };
 		85FA5CDC2236C097007B54B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FA5CDB2236C097007B54B8 /* ViewController.swift */; };
 		85FA5CDF2236C097007B54B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FA5CDD2236C097007B54B8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		858F7CCE223817E400EF1ADA /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		85FA5CD62236C097007B54B8 /* 'Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FA5CD92236C097007B54B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85FA5CDB2236C097007B54B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				85FA5CD92236C097007B54B8 /* AppDelegate.swift */,
 				85FA5CDB2236C097007B54B8 /* ViewController.swift */,
+				858F7CCE223817E400EF1ADA /* LocationDetailsViewController.swift */,
 				85FA5CDD2236C097007B54B8 /* Main.storyboard */,
 				85FA5CE02236C09C007B54B8 /* Assets.xcassets */,
 				85FA5CE22236C09C007B54B8 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858F7CCF223817E400EF1ADA /* LocationDetailsViewController.swift in Sources */,
 				85FA5CDC2236C097007B54B8 /* ViewController.swift in Sources */,
 				85FA5CDA2236C097007B54B8 /* AppDelegate.swift in Sources */,
 			);
