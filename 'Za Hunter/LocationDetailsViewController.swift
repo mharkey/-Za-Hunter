@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import SafariServices
 
 class LocationDetailsViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
@@ -30,5 +31,10 @@ class LocationDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(selectedMapItem.name!)
+    }
+    
+    @IBAction func onDirectionsButtonTapped(_ sender: Any) {
+        let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking]
+        MKMapItem.openMaps(with: [selectedMapItem], launchOptions: launchOptions)
     }
 }

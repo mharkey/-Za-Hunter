@@ -79,13 +79,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJL-V3-eJT">
+                                <rect key="frame" x="152.5" y="548" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3xi-pC-RIs"/>
+                                    <constraint firstAttribute="width" constant="70" id="gbi-bk-thd"/>
+                                </constraints>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="tNE-iO-8TV" eventType="touchUpInside" id="GEv-zt-qBm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="cAx-YL-Piy" firstAttribute="top" secondItem="rvd-zg-Dpr" secondAttribute="bottom" constant="8" symbolic="YES" id="5ir-R6-3lI"/>
                             <constraint firstItem="cAx-YL-Piy" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="9SS-Ai-RG0"/>
                             <constraint firstItem="DbS-TZ-ZN7" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="DdJ-eR-gLr"/>
+                            <constraint firstItem="UJL-V3-eJT" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="SYL-kh-iWX"/>
                             <constraint firstItem="rvd-zg-Dpr" firstAttribute="top" secondItem="g7s-va-tgg" secondAttribute="top" constant="10" id="XgZ-QE-esA"/>
+                            <constraint firstItem="UJL-V3-eJT" firstAttribute="top" secondItem="DbS-TZ-ZN7" secondAttribute="bottom" constant="8" symbolic="YES" id="aAG-2M-6g6"/>
                             <constraint firstItem="rvd-zg-Dpr" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="iJb-pj-5eT"/>
                             <constraint firstItem="DbS-TZ-ZN7" firstAttribute="top" secondItem="cAx-YL-Piy" secondAttribute="bottom" constant="8" symbolic="YES" id="xNj-Gr-CAj"/>
                         </constraints>
