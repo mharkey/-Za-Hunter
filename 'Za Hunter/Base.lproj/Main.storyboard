@@ -48,9 +48,54 @@
                     <view key="view" contentMode="scaleToFill" id="JJu-bB-Yc0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvd-zg-Dpr">
+                                <rect key="frame" x="87.5" y="74" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9xG-e6-4wx"/>
+                                    <constraint firstAttribute="height" constant="150" id="LtG-bj-Bqu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAx-YL-Piy">
+                                <rect key="frame" x="87.5" y="232" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="2k4-41-phy"/>
+                                    <constraint firstAttribute="width" constant="200" id="Acp-Ha-XXt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-TZ-ZN7">
+                                <rect key="frame" x="87.5" y="390" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="D5m-FM-t1S"/>
+                                    <constraint firstAttribute="width" constant="200" id="llo-xM-G4Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cAx-YL-Piy" firstAttribute="top" secondItem="rvd-zg-Dpr" secondAttribute="bottom" constant="8" symbolic="YES" id="5ir-R6-3lI"/>
+                            <constraint firstItem="cAx-YL-Piy" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="9SS-Ai-RG0"/>
+                            <constraint firstItem="DbS-TZ-ZN7" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="DdJ-eR-gLr"/>
+                            <constraint firstItem="rvd-zg-Dpr" firstAttribute="top" secondItem="g7s-va-tgg" secondAttribute="top" constant="10" id="XgZ-QE-esA"/>
+                            <constraint firstItem="rvd-zg-Dpr" firstAttribute="centerX" secondItem="JJu-bB-Yc0" secondAttribute="centerX" id="iJb-pj-5eT"/>
+                            <constraint firstItem="DbS-TZ-ZN7" firstAttribute="top" secondItem="cAx-YL-Piy" secondAttribute="bottom" constant="8" symbolic="YES" id="xNj-Gr-CAj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="g7s-va-tgg"/>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="cAx-YL-Piy" id="m7m-KQ-CTz"/>
+                        <outlet property="nameLabel" destination="rvd-zg-Dpr" id="TcI-gw-tWP"/>
+                        <outlet property="phoneLabel" destination="DbS-TZ-ZN7" id="iyu-xN-MhA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bqK-Ax-blO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
